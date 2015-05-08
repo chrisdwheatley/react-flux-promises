@@ -11,7 +11,10 @@
   "jspm": {
     "directories": {},
     "dependencies": {
+      "events": "npm:events@^1.0.2",
+      "fetch": "npm:whatwg-fetch@^0.8.1",
       "flux": "npm:flux@^2.0.3",
+      "object-assign": "npm:object-assign@^2.0.0",
       "react": "npm:react@^0.13.2"
     },
     "devDependencies": {
@@ -19,5 +22,11 @@
       "babel-runtime": "npm:babel-runtime@^5.1.13",
       "core-js": "npm:core-js@^0.9.4"
     }
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-plumber": "^1.0.0"
   }
 }

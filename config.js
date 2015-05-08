@@ -18,7 +18,10 @@ System.config({
     "babel": "npm:babel-core@5.2.17",
     "babel-runtime": "npm:babel-runtime@5.2.17",
     "core-js": "npm:core-js@0.9.7",
+    "events": "npm:events@1.0.2",
+    "fetch": "npm:whatwg-fetch@0.8.1",
     "flux": "npm:flux@2.0.3",
+    "object-assign": "npm:object-assign@2.0.0",
     "react": "npm:react@0.13.2",
     "github:jspm/nodelibs-buffer@0.1.0": {
       "buffer": "npm:buffer@3.2.2"
