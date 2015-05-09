@@ -22,7 +22,6 @@ export default React.createClass({
     })
   },
   render () {
-    console.log(this.state.all)
     const items = this.state.all.map(item => {
       return (
         <li>:{item.binding}: <img src={item.source}></img></li>
