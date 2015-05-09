@@ -1,13 +1,22 @@
 {
   "name": "react-flux-promises",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An example repository showing how to handle the asynchronosity of promises in Flux's synchronous world.",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Wheatley <chriswheatley87@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "es6",
+    "flux",
+    "flux promises",
+    "promises",
+    "react",
+    "reactjs",
+    "react flux promises"
+  ],
   "jspm": {
     "directories": {},
     "dependencies": {
