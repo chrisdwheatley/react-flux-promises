@@ -1,6 +1,6 @@
 # [React](https://facebook.github.io/react/), [Flux](https://facebook.github.io/flux/), [Promises](http://www.html5rocks.com/en/tutorials/es6/promises/)
 
-An example repository to show how to handle the asynchronosity of promises in Flux's synchronous world.
+An example repository showing how to handle the asynchronosity of promises in Flux's synchronous world.
 
 ### Try It Out
 
@@ -12,7 +12,8 @@ Dependencies
 Clone the repository.
 
 ```
-git clone git@github.com:swirlycheetah/react-flux-promises.git && cd react-flux-promises
+git clone git@github.com:swirlycheetah/react-flux-promises.git
+cd react-flux-promises
 ```
 
 Install the project dependencies.
@@ -34,7 +35,7 @@ Start watching for changes to the source code.
 node_modules/.bin/gulp watch
 ```
 
-Fire up a local server serving from the root of the project, something like [live-server](https://www.npmjs.com/package/live-server) or Python's built in static server (`python -m SimpleHTTPServer`) should do the trick.
+Fire up a local server from the root of the project, something like [live-server](https://www.npmjs.com/package/live-server) or Python's built in static server (`python -m SimpleHTTPServer`) should do the trick.
 
 Navigate to the address your code is being served at in the browser to see things working.
 
