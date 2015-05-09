@@ -1,6 +1,6 @@
 import React from 'react'
 import ListStore from './listStore'
-import {getData, gotData} from './listActionCreator'
+import {getData} from './listActionCreator'
 
 export default React.createClass({
   displayName: 'ListComponent',
