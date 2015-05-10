@@ -1,9 +1,9 @@
-import ListDispatcher from './listDispatcher'
+import EmojiDispatcher from './emojiDispatcher'
 import {fetchData} from './fetch'
 import {API_URL, GET_DATA, GOT_DATA} from './consts'
 
 export function getData () {
-  ListDispatcher.handleViewAction({
+  EmojiDispatcher.handleViewAction({
     type: GET_DATA
   })
 
@@ -12,7 +12,7 @@ export function getData () {
 
 export function gotData (data) {
   data.then(resp => {
-    ListDispatcher.handleServerAction({
+    EmojiDispatcher.handleServerAction({
       type: GOT_DATA,
       all: resp
     })

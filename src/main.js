@@ -1,4 +1,4 @@
 import React from 'react'
-import ListComponent from './listComponent'
+import EmojiComponent from './emojiComponent'
 
-React.render(<ListComponent />, document.body)
+React.render(<EmojiComponent />, document.body)

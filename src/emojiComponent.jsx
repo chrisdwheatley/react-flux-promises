@@ -1,9 +1,9 @@
 import React from 'react'
-import ListStore from './listStore'
-import {getData} from './listActionCreator'
+import EmojiStore from './emojiStore'
+import {getData} from './emojiActionCreator'
 
 export default React.createClass({
-  displayName: 'ListComponent',
+  displayName: 'EmojiComponent',
   propTypes: {
     all: React.PropTypes.array
   },
@@ -14,11 +14,11 @@ export default React.createClass({
   },
   componentWillMount () {
     getData()
-    ListStore.addChangeListener(this.onChange)
+    EmojiStore.addChangeListener(this.onChange)
   },
   onChange () {
     this.setState({
-      all: ListStore.getData()
+      all: EmojiStore.getEmojis()
     })
   },
   render () {

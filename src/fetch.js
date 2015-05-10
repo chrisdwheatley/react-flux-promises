@@ -1,5 +1,5 @@
 import fetch from 'fetch'
-import {gotData} from './listActionCreator'
+import {gotData} from './emojiActionCreator'
 
 export function fetchData (url) {
   return window.fetch(url)
