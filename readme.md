@@ -2,6 +2,10 @@
 
 An example repository showing how to handle the asynchronosity of promises in Flux's synchronous world.
 
+### Background
+
+I wrote up my thought process behind this code, you can read it [here](http://swirlycheetah.com/handling-promises-in-flux/).
+
 ### Try It Out
 
 Dependencies
